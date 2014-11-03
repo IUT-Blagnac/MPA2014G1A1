@@ -1,14 +1,3 @@
-language: java
-script:
-  - java -version
-  - javac -version
-  - python -V
-  - phantomjs -v
-  - echo Hello from DUT INFO Blagnac
-  - ls -alF
-  - cd sprint_5
-  - javac -cp .:./bin -d ./bin ./src/HelloMonde.java
-  
   before_install:
   - wget http://algec.iut-blagnac.fr/~jmi/MPA/src/junit.jar
   - "sudo apt-get install graphviz 2>&1 | tail -n 2"
