@@ -1,4 +1,4 @@
-  before_install:
+before_install:
   - wget http://algec.iut-blagnac.fr/~jmi/MPA/src/junit.jar
   - "sudo apt-get install graphviz 2>&1 | tail -n 2"
   - wget http://algec.iut-blagnac.fr/~jmi/MPA/src/plantuml.jar
@@ -19,5 +19,3 @@ script:
   - java -jar ../plantuml.jar -Tpng -o srcdoc/images srcdoc/diag0.puml
   - python ../asciidoc-8.6.7/asciidoc.py -a data-uri -o srcdoc/presentationFinale.html srcdoc/presentationFinale.txt
   - ls -alF srcdoc
-  
-  
