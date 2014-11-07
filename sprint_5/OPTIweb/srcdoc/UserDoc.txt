@@ -1,0 +1,245 @@
+= OPTIweb : Documentation Utilisateur Sprint 4
+:Author:  Group project 1A1
+:doctitle: OPTI PROJECT User Documentation MPA-M3301-G1A1
+:slideshowlocation: Your computer
+:copyright: {date={localdate}}, {slideshowlocation} *** {author} *** Powered by AsciiDoc and W3C Slidy &#169; 
+:revnumber: 1
+
+
+*********************
+'OPTIweb.html' is an HTML application for the *consultation*
+of tutor-supervised projects managed by OPTI.
+
+'OPTIweb.html' is compatible with all 
+browsers and devices (PC, tablet, smartphones).
+*********************
+
+== Project sheet - SPRINT 4
+
+image::images/univ.png[link="images/univ.png"]
+====
+Team:: Adrien AVILES, Aurélien BERNIER LEVALOIS, Xavier GODON, Alexandre MAGISSON, Tiphaine MARTINEZ, Allan PERRIN et Anaïs RIGAL
+
+*Université Toulouse 2 - IUT de Blagnac*
+
+DUT INFO S3/Module MPA
+Project : OPTI/OPTIweb
+SPRINT 4
+====
+
+== Features available - SPRINT 4
+
+.Application
+--
+- As a client, I want to be able to access to OPTIweb from every mobile or fixed support.
+- As a client, I want to be able to see the projects, subjects, student and contributors in separate pages.
+- As a client, I want to be able to see the names of developers, the name of the Product Owner and the technologies used.
+--
+
+.Projects page
+--
+- As a client, I want to see every project's name, title, client, supervisor, group and students working on it.
+- As a client, I want to search for a project by providing a string of characters.
+--
+
+.Subjects page
+--
+- As a client, I want to see the name, title and the name of the group(s) working on the subject.
+- As a client, I want to search for a subject by providing a string of characters.
+- As a client, I want to select a subject and see all the projects realising the subject.
+--
+
+.Students page
+--
+- As a client, I want to see the name, first name and group of every student.
+- As a client, I want to search for a student by providing a string of characters.
+- As a client, I want to select a student and see which project he is working on.
+--
+
+.Contributors page
+--
+- As a client, I want to see the name, first name and the number of interventions as a client or supervisor of every contributor.
+- As a client, I want to search for a contributor by providing a string of characters.
+- As a client, I want to select a contributor and see which project he is working on.
+--
+
+== How to launch OPTIweb application
+
+. In any medium, load the following URL in a browser
+
+link:../OPTIweb/MakeOPTIWeb/OPTIweb.html[Link]
+
+
+[NOTE]
+====
+'OPTIweb.html' application requires an Internet connection
+at its launch.
+
+Once loaded in a browser, no communication network
+is performed, then you can work offline.
+====
+
+== How to save OPTIweb application
+
+. Save the 'OPTIweb.html' file on your support (about 30KB)
+. Load the 'OPTIweb.html' file local in a browser that initiates the application (a network connection is required only loading).
+
+== OPTIweb : Home page
+
+The home page allows access to :
+
+. Projects of the year
+. Subjects of the year
+. Students from S3 of the year
+. Contributors of the year
++
+NOTE: The button image:captures/creditsButton400x600.png[] provides informations 
+on the OPTIweb application
+
+
+image:captures/accueil400x600.png[]
+
+
+
+== OPTIweb : Projects page
+
+Projects page present by default all tutor-supervised projects of the 
+year indicating their name, title, client, their supervisor and group of students.
+
+=== OPTIweb : Search a project
+
+To search a project :
+
+. Enter a string in the search field
++
+image:captures/searchFieldProjetWeb400x600.png[]
+
+. All the projects containing the given string are then displayed
++
+NOTE: The button image:captures/backButton400x600.png[] allows to go back to the index page.
++
+image:captures/searchProjetsWeb400x600.png[]
+
+
+
+
+== OPTIweb : Subjects page
+
+The subjects page displays all subjects showing their name, title, and the groups of students working on it.
+
+=== OPTIweb : Select a subject
+
+. In the subject list, click the chosen subject
++
+image:captures/lineSujetArchitekt400x600.png[]
+
+. All projects realising the given subject are then displayed
++
+NOTE:The button image:captures/backButton400x600.png[] is a link to the subjects page
++
+image:captures/clickSujetArchitekt400x600.png[]
+
+
+=== OPTIweb : Search a subject
+
+To search for a particular subject :
+
+. Input a string in the search field
++
+image:captures/searchFieldSujetLogiciel400x600.png[]
+
+. All subjects containing the field are then displayed
++
+image:captures/searchSujetLogiciel400x600.png[]
+
+
+NOTE: The button image:captures/backButton400x600.png[] is a link to the index page
+
+== OPTIweb : Students page
+
+The students page displays students name, first name and group.
+
+
+=== OPTIweb : Select a student
+
+. On the students list click on a name
++
+image:captures/ligneEtudiantPiboubes400x600.png[]
+
+. The project done by the student is then displayed
++
+image:captures/clickEtudiantPiboubes400x600.png[]
+
+NOTE: The button image:captures/backButton400x600.png[] allows to go back to the students page
+
+=== OPTIweb : Search a student
+
+To search for a particular student :
+
+. Input a string in the search field
++
+image:captures/searchFieldEtudiantLopez400x600.png[]
+
+[NOTE]
+.To delete the selection
+====
+- Click on the X in the search field
++
+image:captures/searchEtudiantFieldEmpty400x600.png[]
+====
+
+. All the students with the string in their name are then displayed
++
+image:captures/searchEtudiantLopez400x600.png[]
+
+=== OPTIweb : Search a group
+
+To search for a particular group :
+
+. Input 'groupe' followed by the name of the group
+
+. All students of said group are then displayed
++
+image:captures/searchEtudiantGroupeB400x600.png[]
+
+
+NOTE: The button image:captures/backButton400x600.png[] allows to go back to the index page
+
+
+== OPTIweb : Contributors page
+
+The contributors page show the contributor's list, their age, their name and the number of times they are client or supervisor.
+
+=== OPTIweb : Select a contributor
+
+. In the speaker list, click on the corresponding line to choose a
+contributor
+
+. The list of projects the contributor is working on is then displayed
++
+image:captures/clickIntervenantRoques400x600.png[]
+
+NOTE: The button image:captures/backButton400x600.png[] allows to go back to the contributor's page
+
+=== OPTIweb : Search a contributor
+To Search a contributor :
+
+. Input a string in the search box
++
+image:captures/searchFieldIntervenantsBRUEL400x600.png[]
+
+. The list of found contributors is then displayed
++
+image:captures/searchIntervenantsBRUEL400x600.png[]
+
+[NOTE]
+.To remove the selection
+====
+- Click on the X of the search field
++
+image:captures/searchEtudiantFieldEmpty400x600.png[]
+====
+
+NOTE: The button image:captures/backButton400x600.png[] allows to go back to the index page.
+
+
