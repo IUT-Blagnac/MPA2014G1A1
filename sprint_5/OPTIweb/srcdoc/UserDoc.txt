@@ -1,4 +1,4 @@
-= OPTIweb : Documentation Utilisateur Sprint 4
+﻿= OPTIweb : Documentation Utilisateur Sprint 4
 :Author:  Group project 1A1
 :doctitle: OPTI PROJECT User Documentation MPA-M3301-G1A1
 :slideshowlocation: Your computer
@@ -93,11 +93,10 @@ The home page allows access to :
 . Students from S3 of the year
 . Contributors of the year
 +
-NOTE: The button image:captures/creditsButton400x600.png[] provides informations 
+NOTE: The button "Accueil" provides informations 
 on the OPTIweb application
 
 
-image:captures/accueil400x600.png[]
 
 
 
@@ -111,14 +110,11 @@ year indicating their name, title, client, their supervisor and group of student
 To search a project :
 
 . Enter a string in the search field
-+
-image:captures/searchFieldProjetWeb400x600.png[]
 
 . All the projects containing the given string are then displayed
 +
-NOTE: The button image:captures/backButton400x600.png[] allows to go back to the index page.
-+
-image:captures/searchProjetsWeb400x600.png[]
+NOTE: The button "Back" allows to go back to the index page.
+
 
 
 
@@ -130,14 +126,12 @@ The subjects page displays all subjects showing their name, title, and the group
 === OPTIweb : Select a subject
 
 . In the subject list, click the chosen subject
-+
-image:captures/lineSujetArchitekt400x600.png[]
+
 
 . All projects realising the given subject are then displayed
 +
-NOTE:The button image:captures/backButton400x600.png[] is a link to the subjects page
-+
-image:captures/clickSujetArchitekt400x600.png[]
+NOTE:The button "Back" is a link to the subjects page
+
 
 
 === OPTIweb : Search a subject
@@ -145,15 +139,13 @@ image:captures/clickSujetArchitekt400x600.png[]
 To search for a particular subject :
 
 . Input a string in the search field
-+
-image:captures/searchFieldSujetLogiciel400x600.png[]
+
 
 . All subjects containing the field are then displayed
-+
-image:captures/searchSujetLogiciel400x600.png[]
 
 
-NOTE: The button image:captures/backButton400x600.png[] is a link to the index page
+
+NOTE: The button "Back" is a link to the index page
 
 == OPTIweb : Students page
 
@@ -163,34 +155,29 @@ The students page displays students name, first name and group.
 === OPTIweb : Select a student
 
 . On the students list click on a name
-+
-image:captures/ligneEtudiantPiboubes400x600.png[]
+
 
 . The project done by the student is then displayed
-+
-image:captures/clickEtudiantPiboubes400x600.png[]
 
-NOTE: The button image:captures/backButton400x600.png[] allows to go back to the students page
+
+NOTE: The button "Back" allows to go back to the students page
 
 === OPTIweb : Search a student
 
 To search for a particular student :
 
 . Input a string in the search field
-+
-image:captures/searchFieldEtudiantLopez400x600.png[]
+
 
 [NOTE]
 .To delete the selection
 ====
 - Click on the X in the search field
-+
-image:captures/searchEtudiantFieldEmpty400x600.png[]
+
 ====
 
 . All the students with the string in their name are then displayed
-+
-image:captures/searchEtudiantLopez400x600.png[]
+
 
 === OPTIweb : Search a group
 
@@ -199,11 +186,10 @@ To search for a particular group :
 . Input 'groupe' followed by the name of the group
 
 . All students of said group are then displayed
-+
-image:captures/searchEtudiantGroupeB400x600.png[]
 
 
-NOTE: The button image:captures/backButton400x600.png[] allows to go back to the index page
+
+NOTE: The button "Back" allows to go back to the index page
 
 
 == OPTIweb : Contributors page
@@ -216,30 +202,24 @@ The contributors page show the contributor's list, their age, their name and the
 contributor
 
 . The list of projects the contributor is working on is then displayed
-+
-image:captures/clickIntervenantRoques400x600.png[]
 
-NOTE: The button image:captures/backButton400x600.png[] allows to go back to the contributor's page
+NOTE: The button "Back" allows to go back to the contributor's page
 
 === OPTIweb : Search a contributor
 To Search a contributor :
 
 . Input a string in the search box
-+
-image:captures/searchFieldIntervenantsBRUEL400x600.png[]
+
 
 . The list of found contributors is then displayed
-+
-image:captures/searchIntervenantsBRUEL400x600.png[]
 
 [NOTE]
 .To remove the selection
 ====
 - Click on the X of the search field
-+
-image:captures/searchEtudiantFieldEmpty400x600.png[]
+
 ====
 
-NOTE: The button image:captures/backButton400x600.png[] allows to go back to the index page.
+NOTE: The button "Back" allows to go back to the index page.
 
 
